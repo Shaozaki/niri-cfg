@@ -1,0 +1,16 @@
+input {
+touchpad {
+	tap
+	dwt
+	natural-scroll
+}
+
+}
+
+output "eDP-1" {
+    scale 1.05
+     mode "1920x1080@48.00"
+}
+
+screenshot-path "/home/shaozaki/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
+

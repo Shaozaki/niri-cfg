@@ -1,0 +1,11 @@
+
+include "keybinds.kdl"
+include "input.kdl"
+include "startup.kdl"
+include "windows-rules.kdl"
+include "layout.kdl"
+
+prefer-no-csd
+
+include "./noctalia.kdl"
+

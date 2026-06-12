@@ -13,8 +13,3 @@ overview {
     off
   }
 }
-
-window-rule {
-  match app-id="firefox"
-  open-maximized true
-}

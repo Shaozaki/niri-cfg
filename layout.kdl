@@ -24,11 +24,11 @@ layout {
     default-column-width { proportion 0.5; }
 focus-ring {
         width 2.0                 // Ketebalan garis
-        
+
 }
      background-color "transparent"
 
-    
+
 }
 
   layer-rule {
@@ -36,4 +36,11 @@ focus-ring {
   place-within-backdrop true
 
 
+}
+
+
+environment {
+    QT_QPA_PLATFORMTHEME "gtk3"
+    QT_QPA_PLATFORM "wayland;xcb"
+    _JAVA_AWT_WM_NONREPARENTING "1"
 }

@@ -41,6 +41,6 @@ focus-ring {
 
 environment {
     QT_QPA_PLATFORMTHEME "gtk3"
-    QT_QPA_PLATFORM "wayland;xcb"
     _JAVA_AWT_WM_NONREPARENTING "1"
+
 }

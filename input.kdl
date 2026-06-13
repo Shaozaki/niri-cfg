@@ -5,6 +5,11 @@ touchpad {
 	natural-scroll
 }
 
+cursor {
+    xcursor-theme "Bibata-Modern-Classic"
+    xcursor-size 24
+}
+
 }
 
 output "eDP-1" {
